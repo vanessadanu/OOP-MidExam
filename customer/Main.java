@@ -123,7 +123,7 @@ public class Main {
             System.out.println("\nORDER");
             System.out.println("=====");
             System.out.println("1. Make order");
-            System.out.println("2. View order(s)");
+            System.out.println("2. Pay");
             System.out.println("3. Exit");
             System.out.print("Input: ");
             int menu = input.nextInt();
@@ -152,7 +152,7 @@ public class Main {
                         break;
 
                     case 2:
-                        System.out.println("\n# VIEW ORDER(S)");
+                        System.out.println("\n# TOTAL ORDER(S)");
                         viewTotal();
                         break;
                         
